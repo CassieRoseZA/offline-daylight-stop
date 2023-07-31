@@ -17,6 +17,8 @@ The timer is set to a random value between 12 and 24 in-game hours (10 and 20 mi
 
 Obviously, this mod is intended for use on Survival servers that do not toy with the `doDaylightCycle` gamerule.
 
+---
+
 Offline Daylight Stop is a **Fabric Mod** and is developed exclusively for the Fabric mod loader. The LGPL license means that you are free to port Offline Daylight Stop to another mod loader, such as NeoForge.
 
 Builds can be found on Modrinth, or the github repo.
