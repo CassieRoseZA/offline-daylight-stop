@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "offline-daylight-stop",
+	"version": "${version}",
+	"name": "Offline Daylight Stop",
+	"description": "Disables server daylight cycle when no players are connected.",
+	"authors": [
+		"Lafolie"
+	],
+	"contact": {
+		"homepage": "https://github.com/Lafolie/offline-daylight-stop",
+		"sources": "https://github.com/Lafolie/offline-daylight-stop",
+		"issues": "https://github.com/Lafolie/offline-daylight-stop/issues"
+	},
+	"license": "LGPL-3.0-only",
+	"icon": "assets/offline-daylight-stop/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"server": [
+			"lafolie.etc.OfflineDaylightStop"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"fabric-seasons": "*",
+		"snow-real-magic": "*"
+	}
+}
