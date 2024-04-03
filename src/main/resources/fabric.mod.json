@@ -27,5 +27,9 @@
 		"minecraft": "~1.20.4",
 		"java": ">=17",
 		"fabric-api": "*"
+	},
+	"suggests": {
+		"fabric-seasons": "*",
+		"snow-real-magic": "*"
 	}
 }
